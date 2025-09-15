@@ -56,7 +56,7 @@ def main():
     parser = argparse.ArgumentParser(
         description="Find files with matching MD5 hash.",
         formatter_class=argparse.ArgumentDefaultsHelpFormatter,
-        epilog="Example: python script.py /path/to/directory /path/to/targetfile"
+        epilog="Example: python3 Hash-Matcher.py /path/to/directory /path/to/targetfile"
     )
     parser.add_argument("directory", type=str, help="Target directory that contains files to match hash to.")
     parser.add_argument("targetFile", type=str, help="File that contains md5 string or data to hash.")
