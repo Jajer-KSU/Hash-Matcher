@@ -18,6 +18,13 @@ options:
                         Only checks files with these extensions (e.g., .txt .log). (default: None)
 
 # Example using dataset 
-'''python Hash-Matcher.py Milestone_1_dataset/plain_files Milestone_1_dataset/message_hash.md5
+'''
+python Hash-Matcher.py Milestone_1_dataset/plain_files Milestone_1_dataset/message_hash.md5
+'''
 # Results
-![Uploading image.png…]()
+'''
+Target MD5 Hash: d9643115dc80d566d9b985d287451de3
+1 Matches found
+Checked 10000 files, found 1 matches:
+File: Milestone_1_dataset/plain_files\file1693.txt | MD5: d9643115dc80d566d9b985d287451de3
+'''
