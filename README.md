@@ -19,7 +19,7 @@ options:
 
 # Example using dataset 
 ```
-python Hash-Matcher.py Milestone_1_dataset/plain_files Milestone_1_dataset/message_hash.md5
+python3 Hash-Matcher.py Milestone_1_dataset/plain_files Milestone_1_dataset/message_hash.md5
 ```
 # Results
 ```
