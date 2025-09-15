@@ -1,5 +1,5 @@
 # Hash-Matcher
-Python script that takes a target file, reads its contents and determines if it is a hash. If not md5 hash, hashes the contents. Takes said targeted hash and compares it to a list of files in a given directory. Hashes each file in directory and compares that hash with the target hash. If a match is found, appends it to a list and displays the list at the end.
+Python script that takes a target file, reads its contents and determines if it is a hash. If not md5 hash, hashes the contents. Takes said targeted hash and compares it to a list of files in a given directory. Hashes each file's content in directory and compares that hash with the target hash. If a match is found, appends it to a list and displays the list at the end.
 
 # Usage Example
 usage: Hash-Matcher.py [-h] [--verbose] [--recursive] [--extensions [EXTENSIONS ...]] directory targetFile
